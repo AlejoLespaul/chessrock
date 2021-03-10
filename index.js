@@ -1,8 +1,8 @@
 const challengeFunction = function(rookCell, destinationCell){
-    /* YOUR CODE HERE */
-    let result
+    let positionA = rookCell.split('');
+    let positionb = destinationCell.split('');
 
-    return result
+    return positionA[0] == positionb[0] || positionA[1]== positionb[1];    
 }
 
 module.exports = challengeFunction
